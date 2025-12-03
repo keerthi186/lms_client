@@ -112,6 +112,55 @@ body {
     box-shadow: 0 0 20px rgba(15, 155, 15, 0.4);
 }
 
+.animated-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.rotating-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: rotate 2s linear infinite;
+    border: 2px solid #ff6b6b;
+    box-shadow: 0 0 15px rgba(255, 107, 107, 0.3);
+}
+
+.bouncing-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    animation: bounce 1.5s ease-in-out infinite;
+    border: 2px solid #667eea;
+    box-shadow: 0 0 15px rgba(102, 126, 234, 0.3);
+}
+
+.pulsing-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    animation: pulse 2s ease-in-out infinite;
+    border: 2px solid #4ecdc4;
+    box-shadow: 0 0 15px rgba(78, 205, 196, 0.3);
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+
 @keyframes logoSpin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }

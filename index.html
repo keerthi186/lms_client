@@ -2,21 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+
     <style>
-        .para{
-            background-color: blue;
+        .home-box {
+            text-align: center;
         }
-        #sandy{
-            color: red;
+        h3 {
+            color: #4f46e5;
+            font-size: 22px;
+        }
+        p {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #555;
         }
     </style>
-    <h1 style="color: black;">Hi Welcome</h1>
-    <marquee direction="left" class="student">HI HELLO                               </marquee>
-    <p class="para"></p>
+</head>
+
+<body>
+
+<div class="container home-box">
+    <h3>Welcome to Dashboard 🎉</h3>
+    <p>You logged in successfully!</p>
+
+    <button onclick="window.location.href='login.html'">Logout</button>
+</div>
+
 </body>
 </html>
+

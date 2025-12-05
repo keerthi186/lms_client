@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keerthi - Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Keerthi</div>
+            <ul class="nav-menu">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="#resume"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="#blogs"><i class="fas fa-blog"></i> Blogs</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Keerthi</span></h1>
+            <p class="hero-subtitle">Computer Science Student & Aspiring Developer</p>
+            <div class="hero-buttons">
+                <button class="btn primary">View Projects</button>
+                <button class="btn secondary">Download CV</button>
+            </div>
+        </div>
+        <div class="floating-elements">
+            <div class="float-item">💻</div>
+            <div class="float-item">🚀</div>
+            <div class="float-item">⚡</div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate Computer Science student with a strong interest in web development and software engineering. Currently pursuing my Bachelor's degree while building practical skills through personal projects and internships.</p>
+                    <p>When I'm not studying, you'll find me coding side projects, participating in hackathons, or learning new technologies. I'm eager to apply my knowledge in real-world scenarios and contribute to meaningful projects.</p>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Projects Built</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">8.5</div>
+                        <div class="stat-label">CGPA</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Hackathons</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">2</div>
+                        <div class="stat-label">Internships</div>
+                    </div>
+                </div>
+
+                <div class="skills-section">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-categories">
+                        <div class="skill-category">
+                            <h4>Programming</h4>
+                            <div class="skills">
+                                <span class="skill">JavaScript</span>
+                                <span class="skill">Python</span>
+                                <span class="skill">Java</span>
+                                <span class="skill">C++</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Web Development</h4>
+                            <div class="skills">
+                                <span class="skill">HTML/CSS</span>
+                                <span class="skill">React</span>
+                                <span class="skill">Node.js</span>
+                                <span class="skill">MySQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools & Learning</h4>
+                            <div class="skills">
+                                <span class="skill">Git</span>
+                                <span class="skill">VS Code</span>
+                                <span class="skill">Linux</span>
+                                <span class="skill">Figma</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop" alt="E-Commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Student E-Commerce Site</h3>
+                        <p>A simple e-commerce website built as a class project using React and Node.js. Features include product catalog, shopping cart functionality, and basic user authentication. Great learning experience for full-stack development.</p>
+                        <div class="project-features">
+                            <span class="feature">🛒 Product Catalog</span>
+                            <span class="feature">👤 User Login</span>
+                            <span class="feature">💱 Shopping Cart</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=250&fit=crop" alt="Task Management App">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Vue.js</span>
+                                <span>Firebase</span>
+                                <span>PWA</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Study Planner App</h3>
+                        <p>A personal project to help students organize their assignments and study schedule. Built with Vue.js and Firebase, featuring task creation, deadline tracking, and progress monitoring. Perfect for managing college workload.</p>
+                        <div class="project-features">
+                            <span class="feature">📅 Assignment Tracker</span>
+                            <span class="feature">⏰ Deadline Alerts</span>
+                            <span class="feature">📈 Progress Charts</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=250&fit=crop" alt="AI Chat Bot">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Flask</span>
+                                <span>SQLite</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Campus Food Delivery</h3>
+                        <p>A web application for ordering food within campus, built as a semester project. Features restaurant listings, menu browsing, and order placement. Learned database design and API development through this project.</p>
+                        <div class="project-features">
+                            <span class="feature">🍴 Restaurant Menu</span>
+                            <span class="feature">📍 Campus Delivery</span>
+                            <span class="feature">💳 Order Tracking</span>
+                        </div> 
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <div class="container">
+            <h2 class="section-title">Resume</h2>
+            <div class="resume-content">
+                <div class="resume-section">
+                    <h3><i class="fas fa-briefcase"></i> Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Web Development Intern</h4>
+                            <span class="company">TechStart Solutions</span>
+                            <span class="timeline-date">Jun 2024 - Aug 2024</span>
+                            <ul class="achievements">
+                                <li>Developed responsive web components using React and CSS</li>
+                                <li>Collaborated with senior developers on client projects</li>
+                                <li>Learned agile development practices and version control with Git</li>
+                                <li>Contributed to bug fixes and feature enhancements</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Frontend Development Intern</h4>
+                            <span class="company">Digital Campus</span>
+                            <span class="timeline-date">Dec 2023 - Feb 2024</span>
+                            <ul class="achievements">
+                                <li>Built student portal interface using HTML, CSS, and JavaScript</li>
+                                <li>Worked on mobile-responsive design implementations</li>
+                                <li>Participated in daily standups and code review sessions</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Teaching Assistant</h4>
+                            <span class="company">Computer Science Department</span>
+                            <span class="timeline-date">Aug 2023 - Present</span>
+                            <ul class="achievements">
+                                <li>Assisted students with programming assignments in Java and Python</li>
+                                <li>Conducted lab sessions for Data Structures and Algorithms</li>
+                                <li>Graded assignments and provided constructive feedback</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resume-section">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <h4>Bachelor of Computer Science and Business Systems</h4>
+                            <span class="company">Sri Eshwar College of Engineering</span>
+                            <span class="timeline-date">2024 - 2028 (Expected)</span>
+                            <p><strong>CGPA: 8.5/10</strong> | Currently in 2nd year</p>
+                            <p>Relevant Coursework: Data Structures, Algorithms, Object-Oriented Programming, Database Management, Business Analytics, Digital Marketing, E-Commerce Systems</p>
+                        </div>
+                        <div class="timeline-item">
+                            <h4>Higher Secondary Education</h4>
+                            <span class="company">Malco Vidyalaya</span>
+                            <span class="timeline-date">2022 - 2024</span>
+                            <p><strong>Percentage: 92%</strong> | Science Stream (PCM with Computer Science)</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="resume-section">
+                    <h3><i class="fas fa-trophy"></i> Achievements</h3>
+                    <div class="achievements-grid">
+                        <div class="achievement-item">
+                            <i class="fas fa-medal"></i>
+                            <h4>Dean's List</h4>
+                            <p>Fall 2023 & Spring 2024</p>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-trophy"></i>
+                            <h4>Hackathon Winner</h4>
+                            <p>2nd Place - College Tech Fest 2024</p>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-code"></i>
+                            <h4>Coding Competition</h4>
+                            <p>Top 10 - Inter-College Programming Contest</p>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-certificate"></i>
+                            <h4>Certifications</h4>
+                            <p>JavaScript ES6, React Fundamentals</p>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-users"></i>
+                            <h4>Club Leadership</h4>
+                            <p>Vice President - Computer Science Club</p>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-star"></i>
+                            <h4>Academic Excellence</h4>
+                            <p>Scholarship Recipient 2023-24</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blogs" class="blogs">
+        <div class="container">
+            <h2 class="section-title">Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <article class="blog-card featured">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=400&h=200&fit=crop" alt="React Hooks">
+                        <div class="blog-category">React</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Mastering React Hooks: A Complete Guide</h3>
+                        <p>Dive deep into React Hooks and learn how to build more efficient and cleaner components. This comprehensive guide covers useState, useEffect, custom hooks, and advanced patterns with real-world examples.</p>
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="fas fa-calendar"></i> Dec 15, 2024</span>
+                            <span class="read-time"><i class="fas fa-clock"></i> 8 min read</span>
+                            <span class="blog-views"><i class="fas fa-eye"></i> 1.2k views</span>
+                        </div>
+                        <div class="blog-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Frontend</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=200&fit=crop" alt="CSS Grid">
+                        <div class="blog-category">CSS</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Modern CSS Grid Layouts</h3>
+                        <p>Explore the power of CSS Grid and learn how to create complex, responsive layouts with ease. From basic grid concepts to advanced techniques and real-world applications.</p>
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="fas fa-calendar"></i> Dec 10, 2024</span>
+                            <span class="read-time"><i class="fas fa-clock"></i> 6 min read</span>
+                            <span class="blog-views"><i class="fas fa-eye"></i> 890 views</span>
+                        </div>
+                        <div class="blog-tags">
+                            <span class="tag">CSS</span>
+                            <span class="tag">Layout</span>
+                            <span class="tag">Design</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=200&fit=crop" alt="Node.js">
+                        <div class="blog-category">Backend</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Building Scalable APIs with Node.js</h3>
+                        <p>Learn best practices for building robust and scalable REST APIs using Node.js and Express. Cover authentication, error handling, database optimization, and deployment strategies.</p>
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="fas fa-calendar"></i> Dec 5, 2024</span>
+                            <span class="read-time"><i class="fas fa-clock"></i> 10 min read</span>
+                            <span class="blog-views"><i class="fas fa-eye"></i> 1.5k views</span>
+                        </div>
+                        <div class="blog-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">API</span>
+                            <span class="tag">Backend</span>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=200&fit=crop" alt="Machine Learning">
+                        <div class="blog-category">AI/ML</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Introduction to Machine Learning for Web Developers</h3>
+                        <p>Bridge the gap between web development and machine learning. Learn how to integrate ML models into web applications and create intelligent user experiences.</p>
+                        <div class="blog-meta">
+                            <span class="blog-date"><i class="fas fa-calendar"></i> Nov 28, 2024</span>
+                            <span class="read-time"><i class="fas fa-clock"></i> 12 min read</span>
+                            <span class="blog-views"><i class="fas fa-eye"></i> 2.1k views</span>
+                        </div>
+                        <div class="blog-tags">
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">AI</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="blog-cta">
+                <h3>Want to read more?</h3>
+                <p>Check out my complete blog archive with 50+ articles on web development, programming, and technology.</p>
+                <button class="btn primary">View All Posts</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
